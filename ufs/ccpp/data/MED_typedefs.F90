@@ -6,7 +6,7 @@ module MED_typedefs
   use machine,  only: kind_phys
   use physcons, only: con_hvap, con_cp, con_rd, con_eps, con_rocp
   use physcons, only: con_epsm1, con_fvirt, con_g 
-  use physcons, only: con_tice
+  use physcons, only: con_tice, karman
 
   implicit none
 

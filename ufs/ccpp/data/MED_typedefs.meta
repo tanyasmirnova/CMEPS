@@ -1383,7 +1383,7 @@
   dimensions = ()
   type = real
   kind = kind_phys
-[con_karman]
+[karman]
   standard_name = von_karman_constant
   long_name = von karman constant
   units = none
