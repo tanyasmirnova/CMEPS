@@ -189,8 +189,8 @@ module MED_typedefs
     integer                       :: lsoil                     !< number of soil layers
     integer                       :: kice                      !< vertical loop extent for ice levels, start at 1
     integer                       :: lsm_ruc                   !< flag for RUC land surface model
-    integer                       :: diag_flux                 !< flag for flux method of 2-m diagnostics
-    integer                       :: diag_log                  !< flag for log 2-m diagnostics
+    logical                       :: diag_flux                 !< flag for flux method of 2-m diagnostics
+    logical                       :: diag_log                  !< flag for log 2-m diagnostics
     contains
       procedure :: init  => control_initialize
   end type MED_control_type
