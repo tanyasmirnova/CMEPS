@@ -263,7 +263,7 @@ module MED_typedefs
   type MED_diag_type
     real(kind=kind_phys), pointer :: chh(:)          => null()  !< thermal exchange coefficient (kg m-2 s-1)
     real(kind=kind_phys), pointer :: cmm(:)          => null()  !< momentum exchange coefficient (m/s)
-    real(kind=kind_phys), pointer :: dpt2(:)         => null()  !< 2-m dewpoint (K)
+    real(kind=kind_phys), pointer :: dpt2m(:)        => null()  !< 2-m dewpoint (K)
     contains
       procedure :: create  => diag_create    !< allocate array data
   end type MED_diag_type
